@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Nguyen Vo An Vi - AI Engineer portfolio featuring RAG, retrieval, and time-series machine learning projects." />
+  <meta name="theme-color" content="#07111f" />
+  <meta property="og:title" content="Nguyen Vo An Vi | AI Engineer" />
+  <meta property="og:description" content="AI Engineer portfolio - RAG systems, retrieval, and time-series machine learning." />
+  <meta property="og:type" content="website" />
+  <link rel="icon" href="public/favicon.svg" />
+  <link rel="stylesheet" href="styles.css" />
+  <title>Nguyen Vo An Vi | AI Engineer</title>
+</head>
+<body>
+  <div class="site-shell">
+    <header class="nav-wrap">
+      <nav class="nav container" aria-label="Primary navigation">
+        <a class="brand" href="#top" aria-label="Home">AVI<span>.</span></a>
+        <div class="nav-links">
+          <a href="#projects">Projects</a>
+          <a href="#experience">Experience</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <a class="nav-cta" href="public/Nguyen_Vo_An_Vi_CV.pdf" target="_blank" rel="noreferrer">Resume <span aria-hidden="true">↗</span></a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero container">
+        <div class="hero-copy reveal">
+          <div class="eyebrow"><span class="status-dot"></span> Open to AI Engineer internships</div>
+          <h1>Building reliable AI systems from <span>retrieval</span> to <span>forecasting</span>.</h1>
+          <p class="hero-lede">
+            I am <strong>NGUYEN VO AN VI</strong>, a Computer Science undergraduate at UIT focused on practical AI engineering, rigorous experimentation, and deployed products.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projects">Explore my work <span aria-hidden="true">→</span></a>
+            <a class="button button-ghost" href="public/Nguyen_Vo_An_Vi_CV.pdf" target="_blank" rel="noreferrer">↓ Resume</a>
+          </div>
+          <div class="hero-meta">
+            <span>⌖ Ho Chi Minh City, Vietnam</span>
+            <a href="mailto:anvi23052006@gmail.com">✉ anvi23052006@gmail.com</a>
+          </div>
+        </div>
+
+        <aside class="hero-panel reveal delay-1" aria-label="Profile summary">
+          <div class="terminal-top"><span></span><span></span><span></span><p>profile.py</p></div>
+          <pre><code><span class="code-muted">class</span> <span class="code-accent">AIEngineer</span>:
+  university = <span class="code-string">"UIT, VNU-HCM"</span>
+  gpa = <span class="code-number">8.61</span> / <span class="code-number">10</span>
+  focus = [
+    <span class="code-string">"RAG systems"</span>,
+    <span class="code-string">"Retrieval"</span>,
+    <span class="code-string">"Machine learning"</span>
+  ]
+  mindset = <span class="code-string">"curious + self-driven"</span></code></pre>
+          <div class="panel-note">&lt;/&gt; Turning experiments into usable AI products.</div>
+        </aside>
+      </section>
+
+      <section class="stats container" aria-label="Selected achievements">
+        <article class="stat reveal"><strong>7 / 982</strong><span>Kaggle private leaderboard</span></article>
+        <article class="stat reveal"><strong>12 / 42</strong><span>CLEF CheckThat! Lab</span></article>
+        <article class="stat reveal"><strong>Top 28</strong><span>EXACT 2026, 180 teams</span></article>
+        <article class="stat reveal"><strong>3rd Prize</strong><span>DEV-O Hackathon</span></article>
+      </section>
+
+      <section class="about section container">
+        <div class="section-heading reveal">
+          <p class="section-kicker">01 / About</p>
+          <h2>Curious by default.<br />Grounded by experiments.</h2>
+        </div>
+        <div class="about-grid">
+          <div class="about-copy reveal delay-1">
+            <p>I enjoy understanding why an AI approach works, where it fails, and how to make it useful outside a notebook. My strongest work combines <strong>careful validation</strong>, <strong>efficient data pipelines</strong>, and <strong>product-minded deployment</strong>.</p>
+            <p>I am currently seeking an <strong>AI Engineer internship in Ho Chi Minh City</strong>, where I can contribute to real systems while learning from experienced engineers.</p>
+          </div>
+          <div class="skills-grid reveal delay-2">
+            <div class="skill-group"><h3>Languages</h3><div class="chips"><span>Python</span><span>C++</span><span>SQL</span><span>JavaScript</span></div></div>
+            <div class="skill-group"><h3>Machine Learning</h3><div class="chips"><span>PyTorch</span><span>scikit-learn</span><span>LightGBM</span><span>XGBoost</span><span>pandas</span><span>Polars</span></div></div>
+            <div class="skill-group"><h3>RAG & Retrieval</h3><div class="chips"><span>Gemini API</span><span>FAISS</span><span>BM25</span><span>Embeddings</span><span>PEFT / LoRA</span></div></div>
+            <div class="skill-group"><h3>Development</h3><div class="chips"><span>FastAPI</span><span>React</span><span>Vite</span><span>REST APIs</span><span>Git</span><span>Vercel</span><span>Render</span></div></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="section projects-section">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="section-kicker">02 / Selected projects</p>
+            <h2>AI work with a clear<br />problem, method, and result.</h2>
+          </div>
+          <div class="project-list">
+            <article class="project-card reveal">
+              <div class="project-index">01</div>
+              <div class="project-main">
+                <p class="project-eyebrow">Featured AI product</p>
+                <h3>UIT Knowledge Retrieval Chatbot</h3>
+                <div class="chips stack"><span>Gemini</span><span>FAISS</span><span>FastAPI</span><span>React</span></div>
+                <p class="project-description">A deployed Vietnamese RAG assistant that helps students retrieve university information from official UIT sources.</p>
+                <ul>
+                  <li>Built the core RAG pipeline over 274 curated chunks collected from 84 official UIT and SE-UIT webpages.</li>
+                  <li>Separated university-wide and department-specific indexes, then tuned an L2 similarity threshold to filter weak retrievals.</li>
+                  <li>Implemented Gemini rate-limit handling and a JavaScript/React interface connected to the FastAPI backend.</li>
+                  <li>Deployed the frontend on Vercel and backend on Render; won Third Prize among 15 DEV-O Hackathon finalists.</li>
+                </ul>
+              </div>
+              <div class="project-links">
+                <a href="https://uit-chat-bot-ilcj.vercel.app/" target="_blank" rel="noreferrer">Live demo ↗</a>
+                <a href="https://github.com/Vie-is-mee/UIT-ChatBot" target="_blank" rel="noreferrer">GitHub ↗</a>
+              </div>
+            </article>
+
+            <article class="project-card reveal delay-1">
+              <div class="project-index">02</div>
+              <div class="project-main">
+                <p class="project-eyebrow">Competition machine learning</p>
+                <h3>Hedge Fund Time-Series Forecasting</h3>
+                <div class="chips stack"><span>Python</span><span>LightGBM</span><span>Polars</span></div>
+                <p class="project-description">A memory-efficient forecasting pipeline for noisy financial tabular data, ranked 7th out of 982 teams on the final private leaderboard.</p>
+                <ul>
+                  <li>Designed a 3-fold walk-forward validation scheme to preserve temporal order and prevent future-data leakage.</li>
+                  <li>Benchmarked LightGBM, XGBoost, CatBoost, and an ensemble; retained LightGBM after the other models degraded performance.</li>
+                  <li>Replaced an OOM-prone pandas workflow with Polars lazy execution and 200K-row batch inference for approximately 2 GB of data.</li>
+                  <li>Served as Technical Lead in a 5-member team and owned the final modeling and validation pipeline.</li>
+                </ul>
+              </div>
+              <div class="project-links">
+                <a href="https://www.kaggle.com/competitions/ts-forecasting/leaderboard" target="_blank" rel="noreferrer">Leaderboard ↗</a>
+                <a href="https://www.kaggle.com/barakuga" target="_blank" rel="noreferrer">Kaggle ↗</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="experience" class="section container">
+        <div class="section-heading reveal">
+          <p class="section-kicker">03 / Competition experience</p>
+          <h2>Research-oriented challenges,<br />measured against strong teams.</h2>
+        </div>
+        <div class="timeline">
+          <article class="timeline-item reveal"><div class="timeline-dot"></div><div><p class="timeline-result">12th / 42 teams</p><h3>CLEF 2026 - CheckThat! Lab</h3><p>Fine-tuned e5-large-v2 and BGE retrievers with PEFT/LoRA and contrastive learning; evaluated BM25-dense hybrid search, HyDE, hard negatives, and reranking for scientific-document retrieval.</p></div></article>
+          <article class="timeline-item reveal delay-1"><div class="timeline-dot"></div><div><p class="timeline-result">Top 28 / 180 teams</p><h3>EXACT 2026 International Data Science Competition</h3><p>Developed a Qwen-Z3 neuro-symbolic pipeline that translated natural-language reasoning tasks into SMT constraints and verified candidate answers with satisfiability checks.</p></div></article>
+          <article class="timeline-item reveal delay-2"><div class="timeline-dot"></div><div><p class="timeline-result">Top 5 finalist + Consolation Prize</p><h3>Mastering IT 2026 - HCMUTE</h3><p>Advanced from 56 qualifying teams to the five-team final and received the Consolation Prize.</p></div></article>
+        </div>
+      </section>
+
+      <section id="contact" class="section contact-section">
+        <div class="container contact-card reveal">
+          <div>
+            <p class="section-kicker">04 / Contact</p>
+            <h2>Let’s build something<br />useful with AI.</h2>
+            <p>I am open to AI Engineer internship opportunities, technical conversations, and collaborative projects.</p>
+          </div>
+          <div class="contact-actions">
+            <a class="contact-email" href="mailto:anvi23052006@gmail.com">anvi23052006@gmail.com →</a>
+            <div class="social-links">
+              <a href="https://github.com/Vie-is-mee" target="_blank" rel="noreferrer">GitHub</a>
+              <a href="https://www.linkedin.com/in/nguy%E1%BB%85n-vi-264640350/" target="_blank" rel="noreferrer">LinkedIn</a>
+              <a href="https://www.kaggle.com/barakuga" target="_blank" rel="noreferrer">Kaggle</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer container">
+      <span>© 2026 NGUYEN VO AN VI</span>
+      <span>Designed and built as a lightweight static portfolio.</span>
+    </footer>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
